@@ -9,14 +9,14 @@ export default function Counter() {
       <View style={styles.card}>
         <Text style={styles.cardSubtitle}>✦ Secret Treasure Count ✦</Text>
         
-        {/* วงกลมสไตล์ไข่มุกกลมมน */}
+
         <View style={styles.pearlOuter}>
           <View style={styles.pearlInner}>
             <Text style={styles.countNumber}>{count}</Text>
           </View>
         </View>
 
-        {/* ปุ่มสีพาสเทลสดใสสไตล์ใต้ทะเล */}
+
         <View style={styles.controlWrapper}>
           <TouchableOpacity 
             style={[styles.actionBtn, styles.minusBtn]} 
@@ -50,7 +50,7 @@ export default function Counter() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#EBFBFA", // ฟ้าน้ำทะเลสว่างสดใส
+    backgroundColor: "#EBFBFA", 
     justifyContent: "center",
     alignItems: "center",
     padding: 24,
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   cardSubtitle: {
     fontSize: 13,
     fontWeight: "800",
-    color: "#0CA678", // เขียวมินต์เข้ม
+    color: "#0CA678", 
     letterSpacing: 1,
     marginBottom: 24,
   },
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     width: 160,
     height: 160,
     borderRadius: 80,
-    backgroundColor: "#E8F4FD", // สีฟ้าไข่มุกเงา
+    backgroundColor: "#E8F4FD", 
     justifyContent: "center",
     alignItems: "center",
     marginBottom: 32,
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   countNumber: {
     fontSize: 54,
     fontWeight: "800",
-    color: "#E8590C", // สีส้มแดงสดใสโทนผมแอเรียล
+    color: "#E8590C", 
   },
   controlWrapper: {
     flexDirection: "row",
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
   actionBtn: {
     flex: 1,
     height: 56,
-    borderRadius: 28, // ปุ่มทรงรีน่ารัก
+    borderRadius: 28, 
     justifyContent: "center",
     alignItems: "center",
     shadowColor: "#000",
@@ -125,10 +125,10 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   plusBtn: {
-    backgroundColor: "#B197FC", // สีม่วงลาเวนเดอร์ (สัญลักษณ์เปลือกหอย)
+    backgroundColor: "#B197FC", 
   },
   minusBtn: {
-    backgroundColor: "#FF8787", // สีชมพูปะการังพาสเทล
+    backgroundColor: "#FF8787", 
   },
   btnText: {
     fontSize: 28,
